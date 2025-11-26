@@ -1,4 +1,5 @@
 # ⚡ Single-File PHP AI Chat (Ollama & OpenAI)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support%20my%20work-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/quizmybrai7)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4.svg)
