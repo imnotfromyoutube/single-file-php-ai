@@ -9,7 +9,6 @@ A full-featured AI chat interface that lives in **one single PHP file**.
 No `npm install`. No `docker compose`. No build steps. Just drop `chat.php` on any server (or localhost) and start chatting with **Llama 3** (via Ollama) or **GPT-4** (via OpenAI).
 
 ![Screenshot](demo-animation.gif)
-*(Replace this line with a screenshot of your actual interface!)*
 
 ## 🚀 Why this exists?
 
