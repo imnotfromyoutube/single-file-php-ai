@@ -71,3 +71,11 @@ define('ACCESS_PASSWORD', 'secret'); // ?pwd=secret to login
 $apiKey  = '...';
 $baseUrl = '[http://127.0.0.1:11434/v1](http://127.0.0.1:11434/v1)'; 
 $model   = 'llama3';
+```
+## ☕ Support the Project
+
+If you found this tool useful, you can buy me a coffee to keep me awake while I code the next feature!
+
+<a href="https://buymeacoffee.com/quizmybrai7">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="180" />
+</a>
