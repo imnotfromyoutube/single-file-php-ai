@@ -1,81 +1,66 @@
-# ⚡ Single-File PHP AI Chat (Ollama & OpenAI)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support%20my%20work-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/quizmybrai7)
+# 🤖 single-file-php-ai - Easy Chat Interface in One File
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4.svg)
-![No Build](https://img.shields.io/badge/build-none-green.svg)
+## 🚀 Getting Started
 
-A full-featured AI chat interface that lives in **one single PHP file**. 
+Welcome to single-file-php-ai, a simple chat interface for using Ollama and OpenAI. You don't need Node.js, Docker, or any build steps. Just download one file and start chatting!
 
-No `npm install`. No `docker compose`. No build steps. Just drop `chat.php` on any server (or localhost) and start chatting with **Llama 3** (via Ollama) or **GPT-4** (via OpenAI).
+## 🛠️ System Requirements
 
-![Screenshot](demo-animation.gif)
+- A web server with PHP support.
+- PHP version 7.4 or higher.
+- An internet connection for using AI features.
 
-## 🚀 Why this exists?
+## 📦 Download & Install
 
-Modern AI tools are bloated. Running a simple UI for your local LLM often requires installing Node.js, Python, React, and 2GB of dependencies. 
+To get started, follow these steps:
 
-**This project solves that:**
-* **Zero Dependencies:** Uses vanilla PHP, jQuery (CDN), and CSS.
-* **Portable:** Runs on any shared hosting (Apache/Nginx) or a local potato.
-* **Private:** Your data stays on your server (or localhost).
-* **Streaming:** Real-time token streaming via Server-Sent Events (SSE).
+1. Visit the Releases page to download: [Download single-file-php-ai](https://github.com/imnotfromyoutube/single-file-php-ai/releases).
+   
+   ![Download](https://img.shields.io/badge/download-single--file--php--ai-blue)
 
-## ✨ Features
+2. On the Releases page, you will see the latest version available for download. Click on it to open the release details.
 
-* **Universal Support:** Works with **Ollama** (Local) and **OpenAI** (Cloud).
-* **Code Highlighting:** Auto-detects code blocks and applies syntax highlighting.
-* **Markdown Support:** Renders rich text, tables, and lists.
-* **Chat History:** Saves your conversations locally (in browser `localStorage`).
-* **Secure:** Simple password protection included.
-* **Responsive:** Works perfectly on mobile and desktop.
+3. Look for the file named `single-file-php-ai.php`. Click on this file to download it to your computer.
 
-## 🛠️ Quick Start
+4. Save the file in a folder of your choice. Make sure to remember where you saved it.
 
-### Option A: Local Llama (Ollama)
+## 💻 Setting Up the Application
 
-1.  Ensure [Ollama](https://ollama.com/) is running.
-2.  Download `chat.php`.
-3.  Open the file and edit the configuration at the top:
-    ```php
-    $apiKey  = 'ollama'; 
-    $baseUrl = '[http://127.0.0.1:11434/v1](http://127.0.0.1:11434/v1)'; // Use 127.0.0.1 for local reliability
-    $model   = 'llama3:8b'; // Match the model you pulled
-    ```
-4.  Run a local PHP server in your terminal:
-    ```bash
-    php -S localhost:8000
-    ```
-5.  Open `http://localhost:8000/chat.php`
+1. Place the `single-file-php-ai.php` file in your web server's root directory. This is often a folder named `www`, `html`, or `public_html`.
 
-### Option B: OpenAI (ChatGPT)
+2. Ensure your web server is running. If you use software like XAMPP or MAMP, start the server.
 
-1.  Download `chat.php`.
-2.  Edit the configuration at the top:
-    ```php
-    $apiKey  = 'sk-proj-...'; // Your OpenAI Key
-    $baseUrl = '[https://api.openai.com/v1](https://api.openai.com/v1)';
-    $model   = 'gpt-4o-mini';
-    ```
-3.  Upload to any PHP web host.
+3. Open a web browser and enter the following URL: `http://localhost/single-file-php-ai.php`. Make sure to adjust the path if you saved it in a subfolder.
 
-## ⚙️ Configuration
+## 🌐 Using the Application
 
-All settings are located at the very top of `chat.php`:
+1. After loading the page, you will see the chat interface.
 
-```php
-// Security
-define('ACCESS_PASSWORD', 'secret'); // ?pwd=secret to login
+2. Type your message in the input box and hit "Enter".
 
-// API Config
-$apiKey  = '...';
-$baseUrl = '[http://127.0.0.1:11434/v1](http://127.0.0.1:11434/v1)'; 
-$model   = 'llama3';
-```
-## ☕ Support the Project
+3. The chat interface will send your message to Ollama or OpenAI and display the response in the chat window.
 
-If you found this tool useful, you can buy me a coffee to keep me awake while I code the next feature!
+## 🔧 Troubleshooting
 
-<a href="https://buymeacoffee.com/quizmybrai7">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="180" />
-</a>
+If you encounter issues, try the following:
+
+- Ensure your web server is running properly.
+- Check that you have the correct version of PHP installed.
+- Make sure you have an active internet connection.
+
+## 📜 Features
+
+- Simple, clean chat interface.
+- No dependencies on complex technologies.
+- Works seamlessly with both Ollama and OpenAI.
+
+## 📞 Support
+
+If you have questions or need help, please feel free to open an issue on the GitHub repository.
+
+## 🔗 Useful Links
+
+- Download single-file-php-ai: [https://github.com/imnotfromyoutube/single-file-php-ai/releases](https://github.com/imnotfromyoutube/single-file-php-ai/releases)
+- GitHub Repository: [single-file-php-ai](https://github.com/imnotfromyoutube/single-file-php-ai) 
+
+Enjoy your chat experience!
